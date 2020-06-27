@@ -1,0 +1,16 @@
+spring:
+  redis:
+    client-name: tangjianghua
+    cluster:
+      max-redirects: 3
+      nodes: 192.168.25.66:6379,192.168.25.66:6380,192.168.25.66:6381,192.168.25.67:6382,192.168.25.67:6383,192.168.25.67:6384,192.168.25.68:6385,192.168.25.68:6386,192.168.25.68:6387
+#    ssl: false
+#    lettuce:
+#      pool:
+#        max-active: 8
+#        max-idle: 8
+#        min-idle: 0
+#        max-wait: -1ms
+#        time-between-eviction-runs:
+#logging:
+#  level: debug
